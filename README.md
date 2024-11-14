@@ -1,1 +1,1 @@
-# My C Learning Codes
+# my c learning demo
