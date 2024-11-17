@@ -1,7 +1,7 @@
 # the compiler
 CC = gcc
 
-src= main.o variable_names.o constants.o datatypes_and_sizes.o file_copying.o
+src= main.o types_operators_expressions.o io.o
 target=c_demo
 
 $(target): $(src)

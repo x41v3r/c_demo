@@ -10,3 +10,9 @@ void get_and_put(void)
 		c = getchar();
 	}
 }
+
+int print_EOF()
+{
+	printf("EOF: %d\n", EOF);
+	return 0;
+}
