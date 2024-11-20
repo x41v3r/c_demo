@@ -16,15 +16,17 @@ void integer_constants_test()
 	int il = (int) 1234567890123456;
 	printf("il = %d\n", il);
 }
-#include <stdio.h>
 
-int octal_hexadecimal_integer()
+void octal_hexadecimal_integer()
 {
-	int a = 037;
-	int b = 0x1F;
+	int a = 037;  // 31 in octal
+	int b = 0x1F;  // 31 in hexadecimal
 
-	printf("a = %d\n", a);
-	printf("b = %d\n", b);
+	printf("a(037) = %d\n", a);  // a(037) = 31
+	printf("b(0x1F) = %d\n", b);  // b(0x1F) = 31
+}
 
-	return 0;
+void floating_point_constants_test()
+{
+
 }
