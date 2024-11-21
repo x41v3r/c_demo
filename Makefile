@@ -1,7 +1,7 @@
 # the compiler
 CC = gcc
 
-src= main.o types_operators_expressions.o io.o
+src= main.o types_operators_and_expressions.o pointers_and_arrays.o io.o
 target=c_demo
 
 $(target): $(src)
