@@ -10,16 +10,16 @@ int main(void)
 
 	//types operators and expressions
 	integer_constants_test();
-	
 	octal_hexadecimal_integer();
-
 	character_constant_test();
-	
 	string_constant_test();
-
 	declarations_test();
 
+    //pointers and arrays
+    print_a_pointer();
   	pointer_test();
+
+    //io
 
 	return 0;
 }

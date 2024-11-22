@@ -82,6 +82,4 @@ void declarations_test()
     char esc = '\\';
     int i = 0;
     float eps = 1.0e-5;
-
-
 }
